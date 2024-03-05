@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>AV HOTEL</title>
+        <meta charset="UTF-8"  />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="Landingpage.css" />
+    </head>
+    <body>
+        <header id="header">
+            <div class="header-content">
+                <a href="#home">
+                    <img 
+                       src="https://i.pinimg.com/564x/0f/d1/fa/0fd1fa001905f88fd5227845fa3d5e44.jpg"
+                       alt="LOGO"
+                       id="header-img"
+                    /></a>
+                <nav id="header-nav">
+                    <a href="#about" class="nav-link">ABOUT</a>
+                    <a href="#our hotel" class="nav-link">VARIETIES</a>
+                    <a href="#our-service" class="nav-link">OUR SERVICE</a>
+                    <a href="#video-log" class="nav-link">BENEFITS</a>
+                </nav>    
+            </div>
+        </header>
+    <main>
+        <section id="home" class="home-sec">
+            <div class="section-img">
+                <img src="https://i.pinimg.com/736x/4d/a3/5c/4da35c0d84177bb057c09599fd2509a3.jpg" alt="hotel img" />
+            </div>
+            <div class="div-img">
+                <h1>Gorgeous, Comfortable, Beautiful.</h1>
+                <h2>
+                    Turn your long weekends into joyful vacations with your loved ones.
+
+
+                </h2>
+                <button class="btn" onclick="window.location.href = '#contact' ;">
+                    BOOK NOW
+                </button>
+            </div>
+        </section>
+        <section id="about" class="section-sec">
+            <h3 class="section-heading">ABOUT US</h3>
+            <div class="div-section">
+                <p>
+                    A curation of authentic living palaces, landmark hotels, resorts and safaris, AV is the hallmark of iconic hospitality across the globe. The brand is recognised for its warm and intuitive service and is the undisputed leader in Indian hospitality.
+                </p>
+                <img src="https://i.pinimg.com/564x/60/b0/53/60b05373a6fb7af3c341cbd88dddcde8.jpg" alt="ROOMS" />
+            </div>
+        </section>
+        <section id="varieties" class="section-sec">
+            <h3 class="section-heading">OUR HOTEL</h3>
+            <div class="div-section">
+                <div class="tile">
+                    <img src="https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2021/01/28/0314/Grand-Hyatt-Mumbai-P639-Apartment-Two-Bedroom-Living-Room.jpg/Grand-Hyatt-Mumbai-P639-Apartment-Two-Bedroom-Living-Room.4x3.jpg" alt="LIVING ROOM" />
+                    <h4>LIVING ROOM</h4>
+                    <p>
+                        A mixture of endearingly vibrant colours, makes this modern, multi functional living room come to life in an instant. Cotton white walls and dark wood floors acts as a blank canvas allowing colour to be introduced by its furnishings and accessories. 
+                </div>
+                <div class="tile">
+                    <img src="https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="LIVING ROOM" />
+                    <h4>BED ROOM</h4>
+                    <p>
+                        Sleep well and get up happily to explore your dream destinations
+                    </p>
+                </div>
+                <div class="tile">
+                    <img src="https://i.pinimg.com/564x/72/12/86/72128684dacdddd65fa1cec2aea0aeee.jpg" alt="DINING ROOM" />
+                    <h4>DINING ROOM</h4>
+                    <p>
+                        come together to eat & catch up on each others
+                        
+                    </p>
+                </div>
+                <div class="tile">
+                    <img src="https://i.pinimg.com/564x/ad/f7/23/adf723efff7cc03bbb4b6e6b6b232c95.jpg" alt="GYM" />
+                    <h4>GYM</h4>
+                    <p>
+                        A building or room that's meant for playing indoor sports or exercising.
+                    </p>
+                </div>
+                <div class="tile">
+                    <img src="https://i.pinimg.com/564x/05/2f/fa/052ffacf1087c962f09cfc6acf150624.jpg" alt="SPA" />
+                    <h4>SPA</h4>
+                    <p> An oasis of calm where people actively do something for the relaxation of body, mind, and spirit.  
+                    </p>
+                </div>
+                <div class="tile">
+                    <img src="https://i.pinimg.com/564x/eb/fb/f2/ebfbf2ae597201f4237f244430c48800.jpg" alt="BATHROOM" />
+                    <h4>BATH ROOM</h4>
+                    <p>
+                        containing a bathtub or shower and usually a sink and toilet
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="our-services" class="section-sec">
+            <h3 class="section-heading">OUR SERVICES</h3>
+            <div class="div-class">
+                <div class="bars">
+                    <div class="icon-container">
+                        <img src="https://i.pinimg.com/736x/31/5f/ff/315fffb2a1ec37e91f7ada3b29df215c.jpg" alt="service" />
+                    </div>
+                    <div class="txt-container">
+                        <h5>Satisfying</h5>
+                        <p>
+                            We guarantee 100% customer satisfaction. We do our best to make your  experience smooth and memorable. But 
+                            “It’s decisions made and actions taken that prove that the customer commitment is real and not lip service.”
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="benefits" class="section-sec">
+            <h3 class="section-heading">vlog of the hotel</h3>
+            <div class="div-section">
+                <iframe
+                     id="video"
+                     width="560"
+                     title="hotel"
+                     height="315"
+                     src="https://youtu.be/5ZxlAW6W5t0"
+                     allow="accelometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                     allowfullscreen>
+                    </iframe>
+            </div>
+        </section>
+        <section class="section-sec" id="contact">
+            <h3 class="section-heading">CONTACT</h3>
+            <div class="div-section">
+                <h6>To make booking or just to know more, contact us :</h6>
+                <form
+                    id="form"
+                    action="www.aishwarya.com/email-submit"
+                    method="post"
+                >
+            <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your Email Address"
+                required
+                />
+                <input type="submit" class="btn" id="submit" value="Know More" />
+            </form>
+        </div>
+   </section>
+ </main> 
+<footer>
+        Created by 
+        <a href="#">AISHWARYA V</a>
+</footer>  
+</body>
+</html>
